@@ -1,0 +1,9 @@
+.empty {
+  margin: 0 auto;
+  display: flex;
+  width: max-content;
+  padding: 20rem 0;
+  font-size: 3rem;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-weight: 500;
+}

@@ -1,0 +1,78 @@
+/*------------------------------------------------------------
+-----------------------MY ACCOUNT-------------------------
+-------------------------------------------------------------
+*/
+.btn-active {
+  color: #fff;
+}
+.login {
+  color: #fff;
+
+  font-size: 2rem;
+
+  padding: 3rem;
+  padding-top: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-weight: normal;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  margin-top: 12rem;
+  max-width: 120rem;
+}
+
+.login h3 {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 2.6rem;
+}
+
+.login p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1.6rem;
+}
+p span {
+  color: red;
+}
+.login input {
+  height: 3rem;
+  border: none;
+  border-radius: 2px;
+}
+.submit {
+  width: 12rem;
+  height: 6rem;
+  background-color: #cc334f;
+  border: 2px #fff solid;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 2rem;
+}
+.submit:hover {
+  background-color: #bb2c46;
+  cursor: pointer;
+}
+
+.log-rem {
+  display: flex;
+  gap: 2rem;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+  color: hsla(0, 0%, 100%, 0.6);
+  accent-color: #cc334f;
+}
+.lost {
+  font-size: 2rem;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+  transition: 0.2s;
+}
+.lost:hover {
+  color: hsla(0, 0%, 100%, 0.8);
+  transition: 0.2s;
+}
